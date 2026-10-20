@@ -1,0 +1,39 @@
+public class MexendoVariaveis {
+    public static void main(String[] args) {
+        //estou mudando as strings e fazendo contas dentro das variaveis neste código
+        // 1. STRINGS E MUDANÇA DE VALOR (Reatribuição)
+        String nomeCliente = "Carlos Mendes";
+        System.out.println("Cliente cadastrado: " + nomeCliente);
+        
+        // Mudando o valor da variável string (atualizando o nome)
+        nomeCliente = "Carlos M. Silva"; 
+        System.out.println("Nome atualizado: " + nomeCliente);
+
+        // 2. OPERAÇÕES COM INT (Adição e Subtração)
+        int itensEstoque = 10;
+        int produtosAdicionados = 5;
+        int produtosVendidos = 3;
+
+        // Adição (+)
+        int totalEstoque = itensEstoque + produtosAdicionados; // 10 + 5 = 15
+        // Subtração (-)
+        int estoqueFinal = totalEstoque - produtosVendidos; // 15 - 3 = 12
+
+        System.out.println("Estoque após chegada: " + totalEstoque);
+        System.out.println("Estoque final após vendas: " + estoqueFinal);
+
+        // 3. OPERAÇÕES COM DOUBLE (Adição e Subtração)
+        double saldoCarteira = 500.75;
+        double valorCompra = 150.25;
+        double valorDeposito = 100.00;
+
+        // Subtração (-)
+        double saldoAposCompra = saldoCarteira - valorCompra; // 500.75 - 150.25 = 350.50
+
+        // Adição (+)
+        double saldoTotal = saldoAposCompra + valorDeposito; // 350.50 + 100.00 = 450.50
+
+        System.out.println("Saldo após a compra: R$ " + saldoAposCompra);
+        System.out.println("Saldo final com depósito: R$ " + saldoTotal);
+    }
+}
